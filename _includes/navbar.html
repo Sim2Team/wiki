@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark navigation-bar">
 	<div class="container-fluid">
 		<a href="https://sim2team.github.io">
-			<img class="navbar-brand" src="{{ site.url }}/assets/images/icon.png" alt="Sim2Team Icon">
+			<img class="navbar-brand" src="{{ "/assets/images/icon.png" | absolute_url }}"" alt="Sim2Team Icon">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar" title="navbar">
@@ -11,9 +11,9 @@
 
 		<div class="collapse navbar-collapse" id="main-navbar" style="text-align: center">
 			<div class="navbar-nav">
-				<a href="{{ site.url }}/" class="nav-link">Home</a>
-				<a href="{{ site.url }}/guides" class="nav-link">Guides</a>
-				<a href="{{ site.url }}/research" class="nav-link">Research</a>
+				<a href="{{ "/" | absolute_url }}" class="nav-link">Home</a>
+				<a href="{{ "/guides" | absolute_url }}" class="nav-link">Guides</a>
+				<a href="{{ "/research" | absolute_url }}" class="nav-link">Research</a>
 			</div>
 		</div>
 	</div>

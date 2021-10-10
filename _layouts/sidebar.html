@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Sim2Wiki's sidebar layout. -->
+<html lang="en">
+{% include head.html %}
+
+<body>
+	{% include navbar.html %}
+		<div class="content mb-3">
+
+		<main>
+			<div class="container-fluid">
+				<div class="row pt-5">
+					<div class="col-sm-3">
+
+						<div class="card card-main mb-3">
+							<div class="card-header card-title-bar">
+								<h3 class="card-title">{{ page.content-text }}</h3>
+							</div>
+
+							<div class="card-body card-clr">
+								<!-- Display all categories or so here on that card. -->
+								<ul>
+									{% for item in site.data.sidebar[page.sidebar] %}
+										<li>
+											<a style="text-decoration: none" {% if item.title == page.title %}class="fw-bold"{% endif %} href="{{ item.url | prepend: site.url }}">{{ item.title }}</a>
+										</li>
+									{% endfor %}
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<!-- Page content. -->
+					<div class="col-sm-8">
+						<h1>{{ page.title }}</h1>
+						<hr>
+						{{ content }}
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	{% include footer.html %}
+</body>
+</html>

@@ -22,7 +22,10 @@
 								<ul>
 									{% for item in site.data.sidebar[page.sidebar] %}
 										<li>
-											<a style="text-decoration: none" {% if item.title == page.title %}class="fw-bold"{% endif %} href="{{ item.url | absolute_url }}">{{ item.title }}</a>
+											<a
+												{% if item.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
+													href="{{ item.url | absolute_url }}">{{ item.title }}
+											</a>
 										</li>
 									{% endfor %}
 								</ul>

@@ -32,6 +32,11 @@ html, body {
 	height: 100%;
 }
 
+.defaultcenter {
+	text-align: center;
+}
+
+
 /* Main body color and text-aligned handle. */
 body {
 	background-color: $main-bg-color;
@@ -80,6 +85,7 @@ footer {
 .navigation-bar {
 	width: 100%;
 	background-color: $navbar-color;
+	text-align: center;
 }
 
 /* Color of the navigation bar text. */
@@ -128,4 +134,9 @@ code {
 	background-color: $navbar-color;
 	padding: 2px;
 	border-radius: 0.25rem;
+}
+
+/* Eww link underscores on the sidebar card lol. */
+.link-no-underscore {
+	text-decoration: none;
 }

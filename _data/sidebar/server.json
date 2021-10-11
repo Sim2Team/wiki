@@ -1,0 +1,14 @@
+[
+	{
+		"url": "/server",
+		"title": "Sim2Server Index"
+	},
+	{
+		"url": "/server/roles",
+		"title": "Sim2Server Roles"
+	},
+	{
+		"url": "/server/rules",
+		"title": "Sim2Server Rules"
+	}
+]

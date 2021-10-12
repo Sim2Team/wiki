@@ -15,3 +15,4 @@ permalink: /server/rules
 
 4. If you need to ask a question, directly ask the question and don't ask, if you can ask the question, because that only clutters the channels a lot more.
     - Check out the channel description and pins, maybe your question got answered already.
+<hr>

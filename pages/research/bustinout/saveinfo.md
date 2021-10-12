@@ -1,18 +1,29 @@
 ---
 layout: research
 structure: bustinout
-title: Index
-description: Index page for The Sims Bustin' Out (GBA) research.
+title: Save Info
+description: Save Information for The Sims Bustin' Out Game Boy Advance.
 permalink: /research/bustinout
 ---
 
-### Save Informations
-
+## Notes
 - The Japanese version has a completely different Gamecode compared to the PAL version.
 - The USA / NA version has 2 revisions, according to Retroarch's Database Info the Gamecode is `ASIE`.
+<hr>
 
 
-**Basic Save Structure**
+## Basic Save Information
+
+| Content  | Answer                                               |
+| -------- | ---------------------------------------------------- |
+| Savesize | 8 KB (0x2000)                                        |
+| Savetype | EEPROM 64k                                           |
+| Gamecode | ASIP (PAL), ASIE (Not confirmed, USA/NA), B4PJ (JPN) |
+
+<hr>
+
+
+## Basic Save Structure
 
 | Offset          | Datatype | Size  | Content         |
 | --------------- | -------- | ----- | --------------- |
@@ -25,19 +36,10 @@ permalink: /research/bustinout
 
 <hr>
 
-**Basic Save Information**
 
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 8 KB (0x2000)                                        |
-| Savetype | EEPROM 64k                                           |
-| Gamecode | ASIP (PAL), ASIE (Not confirmed, USA/NA), B4PJ (JPN) |
-
-<hr>
-
-
-**Detecting the Savefile**
+## Detecting the Savefile
 1. Check that the Savefile's size is `0x2000` in size.
 2. Check the first `0x8 bytes` that they contain: `0x30 0x30 0x30 0x30 0x45 0x49 0x53 0x41`.
 
 If all the things pass, congrats you just detected a `The Sims Bustin' Out (GBA)` Savefile!
+<hr>

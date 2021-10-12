@@ -128,15 +128,28 @@ table tr:nth-child(2n) {
 	background-color: $card-color;
 }
 
-/* The codeblock style. Eventually a TODO as i'm not sure if that's great. */
-code {
-	color: $navbar-text-color;
-	background-color: $navbar-color;
-	padding: 2px;
-	border-radius: 0.25rem;
-}
-
 /* Eww link underscores on the sidebar card lol. */
 .link-no-underscore {
 	text-decoration: none;
+}
+
+/* Code related things. */
+:not(pre) > code, pre {
+	color: $navbar-text-color;
+	background-color: $navbar-color;
+	padding: 3px;
+	border-radius: 0.25rem;
+	white-space: nowrap;
+}
+pre {
+	padding: 16px;
+	border-radius: 0.5rem;
+	white-space: pre;
+}
+
+/* The blockquote when using "> Text". */
+blockquote {
+	margin-bottom: 20px;
+	padding: 0 0 0 20px;
+	border-left: 5px solid $navbar-color;
 }

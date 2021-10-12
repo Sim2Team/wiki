@@ -1,3 +1,38 @@
-{
-	
-}
+[
+	{
+		"title": "Save Info",
+		"url": "/research/sims2gba"
+	},
+	{
+		"title": "Cast Member",
+		"url": "/research/sims2gba/castmember"
+	},
+	{
+		"title": "Episode",
+		"url": "/research/sims2gba/episode"
+	},
+	{
+		"title": "House Item",
+		"url": "/research/sims2gba/houseitem"
+	},
+	{
+		"title": "Item",
+		"url": "/research/sims2gba/item"
+	},
+	{
+		"title": "Item Package",
+		"url": "/research/sims2gba/itempackage"
+	},
+	{
+		"title": "Meta",
+		"url": "/research/sims2gba/meta"
+	},
+	{
+		"title": "Meta Header",
+		"url": "/research/sims2gba/metaheader"
+	},
+	{
+		"title": "Social Move",
+		"url": "/research/sims2gba/socialmove"
+	}
+]

@@ -104,3 +104,4 @@ permalink: /guides/savedump
 1. Follow Step 1 and 2 from `3. Dumping the Savefile`.
 2. Go to `[sd:] "SDCARD"`, then navigate to your Savefile.
 3. Select your Savefile, then select `Restore save`.
+<hr>

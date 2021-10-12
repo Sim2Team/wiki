@@ -34,3 +34,4 @@ permalink: /guides/unkrawertergba
 - UnkrawerterGBA only works with games that use the Krawall sound engine, all The Sims Game Boy Advance Spin-Off games use this.
 - You can also put UnkrawerterGBA to your PATH and type the command like this: `UnkrawerterGBA <Path/To/Your/ROM.gba>`. It will export the `S3M` files then where you have the command prompt open when running the command.
 - You may want to increase the `Sample Volume` first to the max, to get the best sound volume out of it.
+<hr>

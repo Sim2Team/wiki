@@ -16,6 +16,7 @@ See below for all the Investigation Categories.
 - Cheat-Investigator: Investigating Cheats
 - Inner-Investigator: Investigating the inner workings
 - File-Investigator: Investigating the File System
+<hr>
 
 
 ### Status Roles
@@ -24,9 +25,11 @@ We also have "Status" roles, so you can show what kind of player of these games 
 - Game-Newcomer: The role for newcomer to the games
 - Game-Enjoyer: The role for people that enjoy playing the games
 - Game-Master: The role for people that are masters in the games
+<hr>
 
 
 ### Other Roles
 There are also other roles that likely fit in no category, hence "Other Roles".
 
 - Updates: Get pinged when there is a new update on Sim2Editor for example.
+<hr>

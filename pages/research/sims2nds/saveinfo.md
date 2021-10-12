@@ -1,14 +1,23 @@
 ---
 layout: research
 structure: sims2nds
-title: Index
-description: Index page for The Sims 2 (NDS) research.
+title: Save Info
+description: Save Information for The Sims 2 Nintendo DS.
 permalink: /research/sims2nds
 ---
 
-### Save Informations
+## Basic Save Information
 
-**Basic Save Structure**
+| Content  | Answer                                               |
+| -------- | ---------------------------------------------------- |
+| Savesize | 256 KB (0x40000)                                     |
+| Savetype | TODO                                                 |
+| Gamecode | ASJP (PAL), ASJE (USA/NA), ASJP (JPN)                |
+
+<hr>
+
+
+## Basic Save Structure
 
 | Offset           | Datatype | Size    | Content         |
 | ---------------- | -------- | ------- | --------------- |
@@ -22,18 +31,8 @@ permalink: /research/sims2nds
 
 <hr>
 
-**Basic Save Information**
 
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 256 KB (0x40000)                                     |
-| Savetype | TODO                                                 |
-| Gamecode | ASJP (PAL), ASJE (USA/NA), ASJP (JPN)                |
-
-<hr>
-
-
-**Detecting the Savefile**
+## Detecting the Savefile
 1. Check that the Savefile's size is `0x40000` in size.
 2. Check the first `0x8 bytes` on the following locations:
     - 0x0
@@ -50,3 +49,4 @@ And make sure that at least one of the locations contain (see below).
 	- `0x64 0x61 0x74 0x00 0x21 0x00 0x00 0x00` -> JPN.
 
 If all the things pass, congrats you just detected a `The Sims 2 (NDS)` Savefile and also the region!
+<hr>

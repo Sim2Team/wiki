@@ -14,7 +14,7 @@ See below for all the Investigation Categories.
 
 - Save-Investigator: Investigating the Save Files
 - Cheat-Investigator: Investigating Cheats
-- Inner-Investigator: Investigating the inner workings
+- Internal-Investigator: Investigating the internal workings
 - File-Investigator: Investigating the File System
 <hr>
 

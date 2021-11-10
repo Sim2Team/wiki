@@ -1,10 +1,12 @@
 [
 	{
 		"title": "Save Info",
+		"type": "Savefile",
 		"url": "/research/sims2nds"
 	},
 	{
 		"title": "Painting",
+		"type": "Savefile",
 		"url": "/research/sims2nds/painting"
 	}
 ]

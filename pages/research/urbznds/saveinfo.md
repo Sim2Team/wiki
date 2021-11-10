@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: urbznds
 title: Save Info
 description: Save Information for The Urbz - Sims in the City Nintendo DS.

@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: urbzgba
 title: Save Info
 description: Save Information for The Urbz - Sims in the City Game Boy Advance.

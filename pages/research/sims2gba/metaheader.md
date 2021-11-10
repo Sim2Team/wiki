@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: sims2gba
 title: Meta Header
 description: The Sims 2 Game Boy Advance | Meta Header Research

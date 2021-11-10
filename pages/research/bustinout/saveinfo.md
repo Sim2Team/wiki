@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: bustinout
 title: Save Info
 description: Save Information for The Sims Bustin' Out Game Boy Advance.

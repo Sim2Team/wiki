@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: sims2gba
 title: Save Info
 description: Save Information for The Sims 2 Game Boy Advance.

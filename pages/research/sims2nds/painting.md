@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: sims2nds
 title: Painting
 description: The Sims 2 Nintendo DS | Painting Research

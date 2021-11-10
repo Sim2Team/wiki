@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: sims2gba
 title: Item Package
 description: The Sims 2 Game Boy Advance | Item Package Research

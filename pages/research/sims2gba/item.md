@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: General
 structure: sims2gba
 title: Item
 description: The Sims 2 Game Boy Advance | Item Research

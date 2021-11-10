@@ -14,21 +14,60 @@
 
 						<div class="card card-main mb-3">
 							<div class="card-header card-title-bar">
-								<h3 class="card-title">Structures</h3>
+								<h3 class="card-title">Content</h3>
 							</div>
 
 							<div class="card-body card-clr">
-								<!-- Display all Structures here on that card. -->
-								<ul>
-									{% for item in site.data.structure[page.structure] %}
-										<li>
-											<a
-												{% if item.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
-													href="{{ item.url | absolute_url }}">{{ item.title }}
-											</a>
-										</li>
-									{% endfor %}
-								</ul>
+								<!-- Display all General related pages. -->
+								<details class="mb-3" {% if page.researchcategory == "General" %}open{% endif %}>
+									<summary {% if page.researchcategory == "General" %}class="fw-bold"{% endif %}>General</summary>
+									<ul>
+										{% for item in site.data.structure[page.structure] %}
+											{% if item.type == "General" %}
+												<li>
+													<a
+														{% if item.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
+															href="{{ item.url | absolute_url }}">{{ item.title }}
+													</a>
+												</li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</details>
+
+								<!-- Display all Savefile related pages. -->
+								<details class="mb-3" {% if page.researchcategory == "Savefile" %}open{% endif %}>
+									<summary {% if page.researchcategory == "Savefile" %}class="fw-bold"{% endif %}> Savefile</summary>
+									<ul>
+										{% for item in site.data.structure[page.structure] %}
+											{% if item.type == "Savefile" %}
+												<li>
+													<a
+														{% if item.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
+															href="{{ item.url | absolute_url }}">{{ item.title }}
+													</a>
+												</li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</details>
+
+								<!-- Display all Internal related pages. -->
+								<details class="mb-3" {% if page.researchcategory == "Internal" %}open{% endif %}>
+									<summary {% if page.researchcategory == "Internal" %}class="fw-bold"{% endif %}>Internal</summary>
+									<ul>
+										{% for item in site.data.structure[page.structure] %}
+											{% if item.type == "Internal" %}
+												<li>
+													<a
+														{% if item.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
+															href="{{ item.url | absolute_url }}">{{ item.title }}
+													</a>
+												</li>
+											{% endif %}
+										{% endfor %}
+									</ul>
+								</details>
 							</div>
 						</div>
 					</div>

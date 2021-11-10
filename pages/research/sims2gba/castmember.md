@@ -1,5 +1,6 @@
 ---
 layout: research
+researchcategory: Savefile
 structure: sims2gba
 title: Cast Member
 description: The Sims 2 Game Boy Advance | Cast Member Research

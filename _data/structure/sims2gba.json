@@ -1,23 +1,8 @@
 [
 	{
-		"title": "Save Info",
-		"type": "Savefile",
+		"title": "General Info",
+		"type": "General",
 		"url": "/research/sims2gba"
-	},
-	{
-		"title": "Cast Member",
-		"type": "Savefile",
-		"url": "/research/sims2gba/castmember"
-	},
-	{
-		"title": "Episode",
-		"type": "Savefile",
-		"url": "/research/sims2gba/episode"
-	},
-	{
-		"title": "House Item",
-		"type": "Savefile",
-		"url": "/research/sims2gba/houseitem"
 	},
 	{
 		"title": "Item",
@@ -25,23 +10,48 @@
 		"url": "/research/sims2gba/item"
 	},
 	{
+		"title": "Internal Info",
+		"type": "Internal",
+		"url": "/research/sims2gba/internal"
+	},
+	{
+		"title": "Save Info",
+		"type": "Savefile",
+		"url": "/research/sims2gba/savefile"
+	},
+	{
+		"title": "Cast Member",
+		"type": "Savefile",
+		"url": "/research/sims2gba/savefile/castmember"
+	},
+	{
+		"title": "Episode",
+		"type": "Savefile",
+		"url": "/research/sims2gba/savefile/episode"
+	},
+	{
+		"title": "House Item",
+		"type": "Savefile",
+		"url": "/research/sims2gba/savefile/houseitem"
+	},
+	{
 		"title": "Item Package",
 		"type": "Savefile",
-		"url": "/research/sims2gba/itempackage"
+		"url": "/research/sims2gba/savefile/itempackage"
 	},
 	{
 		"title": "Meta",
 		"type": "Savefile",
-		"url": "/research/sims2gba/meta"
+		"url": "/research/sims2gba/savefile/meta"
 	},
 	{
 		"title": "Meta Header",
 		"type": "Savefile",
-		"url": "/research/sims2gba/metaheader"
+		"url": "/research/sims2gba/savefile/metaheader"
 	},
 	{
 		"title": "Social Move",
 		"type": "Savefile",
-		"url": "/research/sims2gba/socialmove"
+		"url": "/research/sims2gba/savefile/socialmove"
 	}
 ]

@@ -4,19 +4,8 @@ researchcategory: Savefile
 structure: sims2nds
 title: Save Info
 description: Save Information for The Sims 2 Nintendo DS.
-permalink: /research/sims2nds
+permalink: /research/sims2nds/savefile
 ---
-
-## Basic Save Information
-
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 256 KB (0x40000)                                     |
-| Savetype | TODO                                                 |
-| Gamecode | ASJP (PAL), ASJE (USA/NA), ASJP (JPN)                |
-
-<hr>
-
 
 ## Basic Save Structure
 
@@ -45,9 +34,9 @@ permalink: /research/sims2nds
 And make sure that at least one of the locations contain (see below).
 
 - **^ NOTE: Each region has a header identifier, see below for the proper one.**
-    - `0x64 0x61 0x74 0x00 0x1F 0x00 0x00 0x00` -> USA / NA.
-    - `0x64 0x61 0x74 0x00 0x20 0x00 0x00 0x00` -> PAL.
-	- `0x64 0x61 0x74 0x00 0x21 0x00 0x00 0x00` -> JPN.
+    - `0x64 0x61 0x74 0x00 0x1F 0x00 0x00 0x00` => USA.
+    - `0x64 0x61 0x74 0x00 0x20 0x00 0x00 0x00` => Europe.
+	- `0x64 0x61 0x74 0x00 0x21 0x00 0x00 0x00` => Japan.
 
 If all the things pass, congrats you just detected a `The Sims 2 (NDS)` Savefile and also the region!
 <hr>

@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2nds
 title: Painting
 description: The Sims 2 Nintendo DS | Painting Research
-permalink: /research/sims2nds/painting
+permalink: /research/sims2nds/savefile/painting
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

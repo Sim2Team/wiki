@@ -4,24 +4,8 @@ researchcategory: Savefile
 structure: bustinout
 title: Save Info
 description: Save Information for The Sims Bustin' Out Game Boy Advance.
-permalink: /research/bustinout
+permalink: /research/bustinout/savefile
 ---
-
-## Notes
-- The Japanese version has a completely different Gamecode compared to the PAL version.
-- The USA / NA version has 2 revisions, according to Retroarch's Database Info the Gamecode is `ASIE`.
-<hr>
-
-
-## Basic Save Information
-
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 8 KB (0x2000)                                        |
-| Savetype | EEPROM 64k                                           |
-| Gamecode | ASIP (PAL), ASIE (Not confirmed, USA/NA), B4PJ (JPN) |
-
-<hr>
 
 
 ## Basic Save Structure

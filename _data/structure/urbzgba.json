@@ -1,7 +1,12 @@
 [
 	{
+		"title": "General Info",
+		"type": "General",
+		"url": "/research/urbzgba"
+	},
+	{
 		"title": "Save Info",
 		"type": "Savefile",
-		"url": "/research/urbzgba"
+		"url": "/research/urbzgba/savefile"
 	}
 ]

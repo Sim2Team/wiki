@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2gba
 title: Social Move
 description: The Sims 2 Game Boy Advance | Social Move Research
-permalink: /research/sims2gba/socialmove
+permalink: /research/sims2gba/savefile/socialmove
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

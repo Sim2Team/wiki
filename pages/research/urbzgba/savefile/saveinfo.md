@@ -4,19 +4,8 @@ researchcategory: Savefile
 structure: urbzgba
 title: Save Info
 description: Save Information for The Urbz - Sims in the City Game Boy Advance.
-permalink: /research/urbzgba
+permalink: /research/urbzgba/savefile
 ---
-
-## Basic Save Information
-
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 64 KB (0x10000)                                      |
-| Savetype | FLASH 512k                                           |
-| Gamecode | BOCP (PAL), BOCE (USA/NA)                            |
-
-<hr>
-
 
 ## Basic Save Structure
 

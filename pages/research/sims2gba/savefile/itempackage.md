@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2gba
 title: Item Package
 description: The Sims 2 Game Boy Advance | Item Package Research
-permalink: /research/sims2gba/itempackage
+permalink: /research/sims2gba/savefile/itempackage
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2gba
 title: Cast Member
 description: The Sims 2 Game Boy Advance | Cast Member Research
-permalink: /research/sims2gba/castmember
+permalink: /research/sims2gba/savefile/castmember
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2gba
 title: House Item
 description: The Sims 2 Game Boy Advance | House Item Research
-permalink: /research/sims2gba/houseitem
+permalink: /research/sims2gba/savefile/houseitem
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

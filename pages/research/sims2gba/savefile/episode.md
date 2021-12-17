@@ -4,7 +4,7 @@ researchcategory: Savefile
 structure: sims2gba
 title: Episode
 description: The Sims 2 Game Boy Advance | Episode Research
-permalink: /research/sims2gba/episode
+permalink: /research/sims2gba/savefile/episode
 ---
 
 **Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**

@@ -1,12 +1,17 @@
 [
 	{
+		"title": "General Info",
+		"type": "General",
+		"url": "/research/sims2nds"
+	},
+	{
 		"title": "Save Info",
 		"type": "Savefile",
-		"url": "/research/sims2nds"
+		"url": "/research/sims2nds/savefile"
 	},
 	{
 		"title": "Painting",
 		"type": "Savefile",
-		"url": "/research/sims2nds/painting"
+		"url": "/research/sims2nds/savefile/painting"
 	}
 ]

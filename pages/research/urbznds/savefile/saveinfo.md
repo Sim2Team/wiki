@@ -4,19 +4,8 @@ researchcategory: Savefile
 structure: urbznds
 title: Save Info
 description: Save Information for The Urbz - Sims in the City Nintendo DS.
-permalink: /research/urbznds
+permalink: /research/urbznds/savefile
 ---
-
-## Basic Save Information
-
-| Content  | Answer                                               |
-| -------- | ---------------------------------------------------- |
-| Savesize | 8 KB (0x2000)                                        |
-| Savetype | TODO                                                 |
-| Gamecode | ASIP (PAL), ASIE (USA/NA), ASIJ (JPN)                |
-
-<hr>
-
 
 ## Basic Save Structure
 
@@ -35,9 +24,9 @@ permalink: /research/urbznds
 2. Check the first `0x8 bytes` that they contain (see below).
 
 - **^ NOTE: Each region has a different header identifier, see below for the proper one.**
-    - `0x55 0x52 0x42 0x5A 0x30 0x30 0x31 0x30` -> USA / NA.
-    - `0x55 0x52 0x42 0x5A 0x30 0x30 0x37 0x30` -> PAL.
-	- `0x55 0x52 0x42 0x5A 0x4A 0x30 0x30 0x32` -> JPN.
+    - `0x55 0x52 0x42 0x5A 0x30 0x30 0x31 0x30` => USA.
+    - `0x55 0x52 0x42 0x5A 0x30 0x30 0x37 0x30` => Europe.
+	- `0x55 0x52 0x42 0x5A 0x4A 0x30 0x30 0x32` => Japan.
 
 If all the things pass, congrats you just detected a `The Urbz - Sims in the City (NDS)` Savefile and also the region!
 <hr>

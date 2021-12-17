@@ -1,7 +1,12 @@
 [
 	{
+		"title": "General Info",
+		"type": "General",
+		"url": "/research/bustinout"
+	},
+	{
 		"title": "Save Info",
 		"type": "Savefile",
-		"url": "/research/bustinout"
+		"url": "/research/bustinout/savefile"
 	}
 ]

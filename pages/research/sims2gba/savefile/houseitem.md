@@ -99,5 +99,5 @@ The last byte of the House Items store a direction. Below you will find a table 
 | Left      | 0x5   |
 | Up        | 0x7   |
 
-It might be possible that they repeat at larger values, i haven't looked into it yet.
+It might be possible that they repeat at larger values, I haven't looked into it yet.
 <hr>

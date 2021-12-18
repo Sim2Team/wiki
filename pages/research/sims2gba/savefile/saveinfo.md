@@ -24,7 +24,7 @@ permalink: /research/sims2gba/savefile
 
 ## Detecting the Savefile
 1. Check that the Savefile's size is `0x10000` in size.
-2. Check the first `0x8 bytes` that they contain: `0x53 0x54 0x57 0x4E 0x30 0x32 0x34 0x0`.
+2. Check the first `0x8 bytes` that they contain: `0x53 0x54 0x57 0x4E 0x30 0x32 0x34 0x0 (STWN024)`.
 
 If all the things pass, congrats you just detected a `The Sims 2 (GBA)` Savefile!
 <hr>

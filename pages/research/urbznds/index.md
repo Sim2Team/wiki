@@ -14,7 +14,7 @@ permalink: /research/urbznds
 
 ## ROM Info
 
-| Content    | Answer                                  |
+| Content    | Value                                   |
 | ---------- | --------------------------------------- |
 | Game Title | THE URBZ DS                             |
 | Game Code  | ASIE (USA), ASIP (Europe), ASIJ (Japan) |
@@ -25,9 +25,9 @@ permalink: /research/urbznds
 
 ## Save Info
 
-| Content | Answer          |
+| Content | Value           |
 | ------- | --------------- |
 | Size    | 8 KB (0x2000)   |
-| Type    | TODO            |
+| Type    | EEPROM          |
 
 <hr>

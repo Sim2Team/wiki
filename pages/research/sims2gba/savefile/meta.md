@@ -12,12 +12,12 @@ permalink: /research/sims2gba/savefile/meta
 
 
 ## Some notes
-The only things i know so far are:
+The only things I know so far are:
 
 - It doesn't seem to have a Checksum in place.
-- It seems to be related to the last played slot data. This is completely unresearched as i haven't gotten into yet.
+- It seems to be related to the last played slot data. This is completely unresearched as I haven't gotten into yet.
 - The section seems to start at `0x19` up to `0xFFF` or something like that.
-- I'm not even sure what that section is... so i just call it "Meta" for now, lol.
+- I'm not even sure what that section is... so I just call it "Meta" for now, lol.
 <hr>
 
 

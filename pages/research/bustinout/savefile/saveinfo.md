@@ -24,7 +24,7 @@ permalink: /research/bustinout/savefile
 
 ## Detecting the Savefile
 1. Check that the Savefile's size is `0x2000` in size.
-2. Check the first `0x8 bytes` that they contain: `0x30 0x30 0x30 0x30 0x45 0x49 0x53 0x41`.
+2. Check the first `0x8 bytes` that they contain: `0x30 0x30 0x30 0x30 0x45 0x49 0x53 0x41 (0000EISA)`.
 
 If all the things pass, congrats you just detected a `The Sims Bustin' Out (GBA)` Savefile!
 <hr>

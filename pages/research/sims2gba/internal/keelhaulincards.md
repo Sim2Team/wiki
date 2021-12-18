@@ -13,12 +13,12 @@ permalink: /research/sims2gba/internal/keelhaulincards
 ## Technical Information
 ***Here are some related notes for the Keelhaulin' Cards Minigame.***
 
-| Content            | Size | Address          |
-| ------------------ | ---- | ---------------- |
-| Current Card Index | 4(?) | 03002074         |
-| Player Points      | 4    | 030023EC         |
-| Opponent Points    | 4    | 030023F0         |
-| Treasure Points    | 4    | 030023F4         |
+| Content            | Size | Address  |
+| ------------------ | ---- | -------- |
+| Current Card Index | 4(?) | 03002074 |
+| Player Points      | 4    | 030023EC |
+| Opponent Points    | 4    | 030023F0 |
+| Treasure Points    | 4    | 030023F4 |
 
 <hr>
 

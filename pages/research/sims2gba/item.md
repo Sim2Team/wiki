@@ -18,9 +18,9 @@ You can find a list of the Item IDs below, though before a few notes.
 
 - `0xE6` is the ID for an empty Item and not `0x0`.
 
-- Items marked as `(Crash)` can cause the game to freeze when opening the Inventory (or any Item Packages such as from the Pawnshop etc i believe) or even to fully crash. Don't even try to use them. You are warned.
+- Items marked as `(Crash)` can cause the game to freeze when opening the Inventory (or any Item Packages such as from the Pawnshop etc I believe) or even to fully crash. Don't even try to use them. You are warned.
 
-- Items marked as `???` are either Unknown (potential due to crashes) or i didn't came to a proper name idea for the Item.
+- Items marked as `???` are either Unknown (potential due to crashes) or I didn't came to a proper name idea for the Item.
 
 | ID   | English Name                          | German Name                           |
 | ---- | ------------------------------------- | ------------------------------------- |

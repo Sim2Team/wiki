@@ -14,10 +14,10 @@ permalink: /research/sims2gba
 
 ## ROM Info
 
-| Content    | Answer                    |
+| Content    | Value                     |
 | ---------- | ------------------------- |
 | Game Title | THE SIMS 2                |
-| Game Code  | B46E (USA), B46P (Europe) |
+| Game Code  | B46E                      |
 | Regions    | USA, Europe               |
 | Size       | 32 MB (0x2000000)         |
 
@@ -25,7 +25,7 @@ permalink: /research/sims2gba
 
 ## Save Info
 
-| Content | Answer          |
+| Content | Value           |
 | ------- | --------------- |
 | Size    | 64 KB (0x10000) |
 | Type    | FLASH 512k      |

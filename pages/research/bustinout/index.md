@@ -16,7 +16,7 @@ permalink: /research/bustinout
 
 ## ROM Info
 
-| Content    | Answer                                  |
+| Content    | Value                                   |
 | ---------- | --------------------------------------- |
 | Game Title | THE SIMS ADV                            |
 | Game Code  | ASIE (USA), ASIP (Europe), B4PJ (Japan) |
@@ -27,7 +27,7 @@ permalink: /research/bustinout
 
 ## Save Info
 
-| Content | Answer        |
+| Content | Value         |
 | ------- | ------------- |
 | Size    | 8 KB (0x2000) |
 | Type    | EEPROM 64k    |

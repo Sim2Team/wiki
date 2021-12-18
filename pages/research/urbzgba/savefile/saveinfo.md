@@ -24,7 +24,7 @@ permalink: /research/urbzgba/savefile
 
 ## Detecting the Savefile
 1. Check that the Savefile's size is `0x10000` in size.
-2. Check the first `0x8 bytes` that they contain: `0x55 0x52 0x42 0x5A 0x30 0x30 0x31 0x31`.
+2. Check the first `0x8 bytes` that they contain: `0x55 0x52 0x42 0x5A 0x30 0x30 0x31 0x31 (URBZ0011)`.
 
 If all the things pass, congrats you just detected a `The Urbz - Sims in the City (GBA)` Savefile!
 <hr>

@@ -14,7 +14,7 @@ permalink: /research/urbzgba
 
 ## ROM Info
 
-| Content    | Answer                                  |
+| Content    | Value                                   |
 | ---------- | --------------------------------------- |
 | Game Title | THE URBZ AGB                            |
 | Game Code  | BOCE (USA), BOCP (Europe), BOCJ (Japan) |
@@ -25,7 +25,7 @@ permalink: /research/urbzgba
 
 ## Save Info
 
-| Content | Answer          |
+| Content | Value           |
 | ------- | --------------- |
 | Size    | 64 KB (0x10000) |
 | Type    | FLASH 512k      |

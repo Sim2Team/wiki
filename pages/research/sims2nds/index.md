@@ -14,7 +14,7 @@ permalink: /research/sims2nds
 
 ## ROM Info
 
-| Content    | Answer                                  |
+| Content    | Value                                   |
 | ---------- | --------------------------------------- |
 | Game Title | THE SIMS 2                              |
 | Game Code  | ASJE (USA), ASJP (Europe), ASJJ (Japan) |
@@ -25,9 +25,9 @@ permalink: /research/sims2nds
 
 ## Save Info
 
-| Content | Answer           |
+| Content | Value            |
 | ------- | ---------------- |
 | Size    | 256 KB (0x40000) |
-| Type    | TODO             |
+| Type    | FLASH            |
 
 <hr>

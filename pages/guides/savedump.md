@@ -11,31 +11,58 @@ permalink: /guides/savedump
 <hr>
 
 ### 1. What you need
-- [GBA Backup Tool](https://gamebrew.org/wiki/GBA_Backup_Tool)
+- [GodMode9i's latest release](https://github.com/DS-Homebrew/GodMode9i/releases).
 - A program that can extract `.7z` files, the recommended one on Windows is [7-Zip](https://7-zip.org/), on macOS it's [The Unarchiver](https://theunarchiver.com/).
 - A Nintendo DS Lite or Nintendo DS Phat.
 - A Slot 1 Flashcart.
 - Your Game Boy Advance Cartridge of course.
 
 ### 2. Preparations
-1. Download `GBA Backup Tool` from GameBrew. Then extract the `.7z` file, and then the `.zip` inside it.
-2. Place `GBA_Backup_Tool.nds` from the `GBA Backup Tool` directory inside the root of the Flashcart's SD Card.
-3. Insert the SD Card back to the Flashcart and start your console.
+1. Download `GodMode9i.7z` from GitHub.
+2. Extract `GodMode9i.nds` from the 7z file.
+3. Place `GodMode9i.nds` from the `GodMode9i` directory inside the root of the DSi SD Card.
 
 ### 3. Dumping the Savefile
-1. Select `GBA Backup Tool` from the File Selector and start it.
-2. Insert your Game Boy Advance Cartridge into Slot 2 and press `A` to let it initialize the Game Boy Advance Cart Slot. This may take a few seconds.
-3. Press `B` to let it create a new Savefile dump to the Flashcart's SD Card. Then press `A` to confirm the run prompt.
+1. Select `GodMode9i` from the Flashcart's Menu and start it.
+2. Insert your Game Boy Advance Cartridge into Slot 2.
+3. Scroll down to and select `GBA GAMECART` then press `X` for `save only`.
 
-**You can find your Savefile at `fat:/GBA_Backup/` on your Flashcart's SD Card.**
+**You can find your Savefile at `fat:/gm9i/out/` on your Flashcart's SD Card.**
 
 ### 4. Restoring a Savefile
 1. Follow Step 1 and 2 from `3. Dumping the Savefile`.
-2. Press `R` to let it switch into the `Save Restore` mode. (You can see in which mode it is, by looking at the second blue box on the bottom screen).
-3. Select the Savefile from the list on the top screen you want to restore, then press `A`. Read the prompt and press `A` again to confirm it.
-
-
+2. Go to `[fat:] "FLASHCARD"`, then navigate to your Savefile.
+3. Select your Savefile, then select `Restore save`.
 <hr>
+
+## How to dump a Nintendo DS Savefile (DSi)
+<hr>
+
+### 1. What you need
+- [GodMode9i's latest release](https://github.com/DS-Homebrew/GodMode9i/releases).
+- A program that can extract `.7z` files, the recommended one on Windows is [7-Zip](https://7-zip.org/), on macOS it's [The Unarchiver](https://theunarchiver.com/).
+- Your Nintendo DS Cartridge of course.
+- [Unlaunch](https://dsi.cfw.guide/) installed for Slot 1 access.
+
+### 2. Preparations
+1. Download `GodMode9i.7z` from GitHub.
+2. Extract `GodMode9i.nds` from the 7z file.
+3. Place `GodMode9i.nds` from the `GodMode9i` directory inside the root of the DSi SD Card.
+
+
+### 3. Dumping the Savefile
+1. Open GodMode9i with Unlaunch, TWiLight Menu++ or whatever you are using to launch Homebrew apps.
+2. Insert your Nintendo DS Cartridge into the Slot.
+3. Scroll down to and select `NDS GAMECARD` then press `X` for `save only`.
+
+**You can find your Savefile at `sd:/gm9i/out/`.**
+
+### 4. Restoring a Savefile
+1. Follow Step 1 and 2 from `3. Dumping the Savefile`.
+2. Go to `[sd:] "SDCARD"`, then navigate to your Savefile.
+3. Select your Savefile, then select `Restore save`.
+<hr>
+
 ## How to dump a Nintendo DS Savefile (3DS)
 <hr>
 
@@ -75,33 +102,4 @@ permalink: /guides/savedump
 - **For a proper Savefile restore, the Savefile MUST exactly be called like this for the games:**
     - `The Urbz - Sims in the City` -> `THE URBZ DS.sav`.
     - `The Sims 2` -> `THE SIMS 2.sav`.
-	
-
-<hr>
-## How to dump a Nintendo DS Savefile (DSi)
-<hr>
-
-### 1. What you need
-- [GodMode9i's latest release](https://github.com/DS-Homebrew/GodMode9i/releases).
-- A program that can extract `.7z` files, the recommended one on Windows is [7-Zip](https://7-zip.org/), on macOS it's [The Unarchiver](https://theunarchiver.com/).
-- Your Nintendo DS Cartridge of course.
-- [Unlaunch](https://dsi.cfw.guide/) installed for Slot 1 access.
-
-### 2. Preparations
-1. Download `GodMode9i.7z` from GitHub.
-2. Extract `GodMode9i.nds` from the 7z file.
-3. Place `GodMode9i.nds` from the `GodMode9i` directory inside the root of the DSi SD Card.
-
-
-### 3. Dumping the Savefile
-1. Open GodMode9i with Unlaunch, TWiLight Menu++ or whatever you are using to launch Homebrew apps.
-2. Insert your Nintendo DS Cartridge into the Slot.
-3. Scroll down to `NDS GAMECARD` and then press `X` for `save only`.
-
-**You can find your Savefile at `sd:/gm9i/out/`.**
-
-### 4. Restoring a Savefile
-1. Follow Step 1 and 2 from `3. Dumping the Savefile`.
-2. Go to `[sd:] "SDCARD"`, then navigate to your Savefile.
-3. Select your Savefile, then select `Restore save`.
 <hr>

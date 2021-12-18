@@ -108,7 +108,7 @@ std::string GetRank(const uint8_t Flag) {
 		Each "Rank" has a range of 8, so we need to do " / 8", to get the rank name.
 		We do "1 +" because the actual first "category" in our RankNames strings is index 1.
 	*/
-	const uint8_t Category = 1 + (Flag / 8); // The categories are calculated like this i assume.
+	const uint8_t Category = 1 + (Flag / 8); // The categories are calculated like this I assume.
 
 	/*
 		The game handles each first of two being a "Blank Canvas", that's why we check for:

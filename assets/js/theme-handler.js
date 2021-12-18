@@ -15,7 +15,5 @@ function SetTheme(Theme) {
 	LoadTheme();
 };
 
-window.onload = function() {
-	LoadTheme();
-	document.getElementById("theme-selector").value = localStorage.theme;
-};
+LoadTheme();
+window.onload = () => document.getElementById("theme-selector").value = localStorage.theme;

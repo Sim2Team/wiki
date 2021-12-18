@@ -15,6 +15,16 @@
 		"url": "/research/sims2gba/internal"
 	},
 	{
+		"title": "Internal Menus",
+		"type": "Internal",
+		"url": "/research/sims2gba/internal/menus"
+	},
+	{
+		"title": "Internal Keelhaulin' Cards Minigame",
+		"type": "Internal",
+		"url": "/research/sims2gba/internal/keelhaulincards"
+	},
+	{
 		"title": "Save Info",
 		"type": "Savefile",
 		"url": "/research/sims2gba/savefile"

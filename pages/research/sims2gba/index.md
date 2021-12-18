@@ -31,3 +31,12 @@ permalink: /research/sims2gba
 | Type    | FLASH 512k      |
 
 <hr>
+
+
+## Internal
+**You are interested how the game internally works? Then <a href="{{ "/research/sims2gba/internal" | absolute_url }}"> Internal Info</a> might be a good starting point to look at.**
+<hr>
+
+## Savefile
+**You are interested how the Savefile is structured? Then <a href="{{ "/research/sims2gba/savefile" | absolute_url }}"> Save Info</a> might be a good starting point to look at.**
+<hr>

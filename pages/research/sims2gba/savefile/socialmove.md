@@ -25,6 +25,7 @@ permalink: /research/sims2gba/savefile/socialmove
 You can find a C++ structure for the Social Moves below.
 
 ```cpp
+struct SocialMove {
 	enum class Flag : uint8_t { Locked = 0x0, Unlocked = 0x1, Blocked = 0x2 };
 
 	Flag Status = Flag::Locked; // The Status of the Social Move; 0x0.
@@ -33,6 +34,7 @@ You can find a C++ structure for the Social Moves below.
 	uint8_t Unknown2 = 0x0; // Unknown; 0x5.
 	uint8_t BlockedHours = 0x0; // The hours for how long it's blocked; 0x6.
 	uint8_t Unknown3 = 0x0; // Unknown; 0x7.
+};
 ```
 <hr>
 

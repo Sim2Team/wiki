@@ -7,18 +7,26 @@ description: The Sims 2 Game Boy Advance | Internal Keelhaulin' Cards Minigame R
 permalink: /research/sims2gba/internal/keelhaulincards
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.1.**
+<hr>
+
+## TODOs
+- Figure out how Player / Opponent cards are stored.
 <hr>
 
 ## Technical Information
 ***Here are some related notes for the Keelhaulin' Cards Minigame.***
 
-| Content            | Size | Address  |
-| ------------------ | ---- | -------- |
-| Current Card Index | 4(?) | 03002074 |
-| Player Points      | 4    | 030023EC |
-| Opponent Points    | 4    | 030023F0 |
-| Treasure Points    | 4    | 030023F4 |
+| Content               | Size (hex) | Address  |
+| --------------------- | ---------- | -------- |
+| Current Card Index    | 4(?)       | 03002074 |
+| Player Points         | 4          | 030023EC |
+| Opponent Points       | 4          | 030023F0 |
+| Treasure Points       | 4          | 030023F4 |
+| Card Deck Card Amount | 1          | 03002398 |
+| Player Card Amount    | 4(?)       | 03002399 |
+| Card Deck Start       | 30 - 3C    | 0300239C |
+| Card Deck Index       | 1(?)       | 030023D8 |
 
 <hr>
 
@@ -73,6 +81,23 @@ permalink: /research/sims2gba/internal/keelhaulincards
 - 4 Cards of each Special type.
 - `(5 * 8) + (1 * 8) + (4 * 3) => 60`
 
+<hr>
 
-If all the cards are already drawn out of the card deck, the player who lays down a card then gets the Treasure Points.
+
+## Card Deck
+See above for the cardset the minigame contains per Level.
+
+The minigame stores the cards from the card deck at `0300239C` up to the `030023D7` section. Depending on the Level it may just use 48 cards instead of all 60.
+
+You can find the amount of cards from the initialized card deck at `03002398`, and if you want to know what the next card of the card deck would be, you can find it at `030023D8`.
+
+The Cards from the card deck are 1 byte in size, as they just contain the card ID. The IDs are the following ones:
+
+- 0 - 7: Normal Cards from the displayed order above.
+- 8 - F: Ghost Cards from the displayed order above.
+- 10 - 12: Special Cards from the displayed order above.
+
+After every draw of a card from the card deck, `Card Deck Index (030023D8)` will increase by 1.
+
+Does the `Card Deck Index` reach `Card Deck Card Amount`, then the round will end after the Player lays down a card and gets the Treasure Points.
 <hr>

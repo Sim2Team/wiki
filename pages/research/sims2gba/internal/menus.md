@@ -7,8 +7,9 @@ description: The Sims 2 Game Boy Advance | Internal Menu Research
 permalink: /research/sims2gba/internal/menus
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.0.**
 <hr>
+
 
 ## Technical information
 ***The game seems to be using function pointers to prepare, handle and terminate the Menus.***
@@ -45,6 +46,7 @@ Now that result is the actual starting point, though for some reason it's 1 byte
 
 If you want the ROM Location, just do `- 08000000` again and there you go. The Game Boy Advance stores the ROM at `08000000` in memory, that's why.
 <hr>
+
 
 ## IDs
 You can find a list of the Menu IDs below. Menus marked with `?? (Black screen)` still need to be figured out and some may black screen and eventually just freeze or crash the game if not used correctly.

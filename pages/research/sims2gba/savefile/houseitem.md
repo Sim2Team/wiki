@@ -61,19 +61,19 @@ struct HouseItems {
 
 
 ## Item IDs
-For a list of all Item IDs, checkout the [Item ID Section](item#item-id-list).
+For a list of all Item IDs, checkout the <a href="{{ "/research/sims2gba/item#id-list" | absolute_url }}">Item ID Section</a>.
 <hr>
 
 
 ## Item Flags
-For a list of all Item flags, checkout the [Item Flags Section](item#item-flags).
+For a list of all Item flags, checkout the <a href="{{ "/research/sims2gba/item#item-flags" | absolute_url }}">Item Flags Section</a>.
 
 **NOTE, that this section is a TODO.**
 <hr>
 
 
 ## Item Use Count
-For a list of all Item Use Counts, checkout the [Item Use Count Section](item#item-use-count).
+For a list of all Item Use Counts, checkout the <a href="{{ "/research/sims2gba/item#item-use-count" | absolute_url }}">Item Use Count Section</a>.
 
 **NOTE, that this section is a TODO.**
 <hr>

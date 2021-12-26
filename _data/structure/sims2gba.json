@@ -25,6 +25,11 @@
 		"url": "/research/sims2gba/internal/keelhaulincards"
 	},
 	{
+		"title": "Internal Social Action Menu",
+		"type": "Internal",
+		"url": "/research/sims2gba/internal/socialactionmenu"
+	},
+	{
 		"title": "Save Info",
 		"type": "Savefile",
 		"url": "/research/sims2gba/savefile"

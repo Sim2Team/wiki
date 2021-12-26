@@ -28,9 +28,9 @@ You can find a C++ structure for the Cast Members below.
 struct CastMember {
 	enum class CastFeeling : uint8_t { Neutral = 0x0, Happy = 0x1, Angry = 0x2, Romantic = 0x3 }; // To make the feeling stuff more clear, to what value what feeling is.
 
-	uint8_t FriendlyLevel = 0x3; // The friendly interaction level of the cast member; 0 - 3 is valid; 0x0.
-	uint8_t RomanceLevel = 0x3; // The romance interaction level of the cast member; 0 - 3 is valid; 0x1.
-	uint8_t IntimidateLevel = 0x3; // The intimidate interaction level of the cast member; 0 - 3 is valid; 0x2.
+	uint8_t FriendlyLevel = 0x3; // The friendly conversation level of the cast member; 0 - 3 is valid; 0x0.
+	uint8_t RomanceLevel = 0x3; // The romance conversation level of the cast member; 0 - 3 is valid; 0x1.
+	uint8_t IntimidateLevel = 0x3; // The intimidate conversation level of the cast member; 0 - 3 is valid; 0x2.
 	CastFeeling Feeling = CastFeeling::Neutral; // The Feeling of the cast member; See the enum class above for what value is for which feeling; 0x3.
 	uint8_t Unknown1[0x2] = { 0x0 }; // Unknown as of yet; 0x4 - 0x5.
 	uint8_t FeelingEffectHours = 0x0; // The Hours that are left for the feeling effect; 0x6.
@@ -105,12 +105,12 @@ You can find a list with the base offsets for each Cast Member below in the Tabl
 <hr>
 
 
-## Cast Member Interactions
-Each Cast Member has the `Friendly`, `Romantic` and `Intimidate` Interaction Levels stored.
+## Cast Member Conversations
+Each Cast Member has the `Friendly`, `Romantic` and `Intimidate` Conversation Levels stored.
 
 Starting with Friendly at byte `0x0`, then following with Romantic at byte `0x1` and the last Intimidate with byte `0x2`.
 
-The Level range is from `0` for no interaction up to `3` for the max interaction levels.
+The Level range is from `0` for no conversation up to `3` for the max conversation levels.
 <hr>
 
 

@@ -9,19 +9,22 @@ permalink: /research/sims2gba
 
 ![](https://github.com/Sim2Team/Sim2Team.github.io/raw/main/assets/images/sims2GBACover.png)
 
-**`The Sims 2` for the Game Boy Advance is a game developed by Griptonite Games and published by Electronic Arts in the USA on October 24th 2005 and in Europe on November 4th 2005.**
+**`The Sims 2` for the Game Boy Advance is a game developed by Griptonite Games (or was it Amaze Entertainment? at least the actual game credits say so...) and published by Electronic Arts in the USA on October 24th 2005 and in Europe on November 4th 2005.**
 <hr>
+
 
 ## ROM Info
 
-| Content    | Value                     |
-| ---------- | ------------------------- |
-| Game Title | THE SIMS 2                |
-| Game Code  | B46E                      |
-| Regions    | USA, Europe               |
-| Size       | 32 MB (0x2000000)         |
+| Content      | Value                     |
+| ------------ | ------------------------- |
+| Game Title   | THE SIMS 2                |
+| Game Code    | B46E                      |
+| Regions      | USA, Europe               |
+| Size         | 32 MB   (0x2000000)       |
+| Trimmed Size | 31.7 MB (0x1FC4AD5)       |
 
 <hr>
+
 
 ## Save Info
 
@@ -33,9 +36,15 @@ permalink: /research/sims2gba
 <hr>
 
 
+## General
+**You can find general things related to the Internal, but also to the Savefile side on the General sidebar dropdown, such as the Item ID list.**
+<hr>
+
+
 ## Internal
 **You are interested how the game internally works? Then <a href="{{ "/research/sims2gba/internal" | absolute_url }}"> Internal Info</a> might be a good starting point to look at.**
 <hr>
+
 
 ## Savefile
 **You are interested how the Savefile is structured? Then <a href="{{ "/research/sims2gba/savefile" | absolute_url }}"> Save Info</a> might be a good starting point to look at.**

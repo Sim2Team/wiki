@@ -1,9 +1,9 @@
 ---
 layout: research
-researchcategory: General
+researchcategory: Index
 structure: urbzgba
-title: General Info
-description: General Info for The Urbz - Sims in the City Game Boy Advance.
+title: Research Info
+description: Research Info for The Urbz - Sims in the City Game Boy Advance.
 permalink: /research/urbzgba
 ---
 

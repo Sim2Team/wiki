@@ -1,8 +1,18 @@
 [
 	{
+		"title": "Research Info",
+		"type": "Index",
+		"url": "/research/urbznds"
+	},
+	{
 		"title": "General Info",
 		"type": "General",
-		"url": "/research/urbznds"
+		"url": "/research/urbznds/general"
+	},
+	{
+		"title": "Internal Info",
+		"type": "Internal",
+		"url": "/research/urbznds/internal"
 	},
 	{
 		"title": "Save Info",

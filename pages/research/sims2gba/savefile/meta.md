@@ -3,11 +3,11 @@ layout: research
 researchcategory: Savefile
 structure: sims2gba
 title: Meta
-description: The Sims 2 Game Boy Advance | Meta Research
+description: The Sims 2 Game Boy Advance | Savefile Meta Research
 permalink: /research/sims2gba/savefile/meta
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.0.**
 <hr>
 
 

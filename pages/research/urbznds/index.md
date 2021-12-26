@@ -1,9 +1,9 @@
 ---
 layout: research
-researchcategory: General
+researchcategory: Index
 structure: urbznds
-title: General Info
-description: General Info for The Urbz - Sims in the City Nintendo DS.
+title: Research Info
+description: Research Info for The Urbz - Sims in the City Nintendo DS.
 permalink: /research/urbznds
 ---
 

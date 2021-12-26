@@ -18,6 +18,15 @@
 							</div>
 
 							<div class="card-body card-clr">
+								<!-- Special case for the index of the research page. -->
+								{% assign index = site.data.structure[page.structure][0] %}
+								<li class="mb-3">
+									<a
+										{% if index.title == page.title %}class="fw-bold link-no-underscore"{% else %}class="link-no-underscore"{% endif %}
+											href="{{ index.url | absolute_url }}">{{ index.title }}
+									</a>
+								</li>
+
 								<!-- Display all General related pages. -->
 								<details class="mb-3" {% if page.researchcategory == "General" %}open{% endif %}>
 									<summary {% if page.researchcategory == "General" %}class="fw-bold"{% endif %}>General</summary>

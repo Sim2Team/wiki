@@ -3,11 +3,11 @@ layout: research
 researchcategory: General
 structure: sims2gba
 title: Item
-description: The Sims 2 Game Boy Advance | Item Research
-permalink: /research/sims2gba/item
+description: The Sims 2 Game Boy Advance | General Item Research
+permalink: /research/sims2gba/general/item
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.0.**
 <hr>
 
 

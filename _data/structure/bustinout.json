@@ -1,8 +1,18 @@
 [
 	{
+		"title": "Research Info",
+		"type": "Index",
+		"url": "/research/bustinout"
+	},
+	{
 		"title": "General Info",
 		"type": "General",
-		"url": "/research/bustinout"
+		"url": "/research/bustinout/general"
+	},
+	{
+		"title": "Internal Info",
+		"type": "Internal",
+		"url": "/research/bustinout/internal"
 	},
 	{
 		"title": "Save Info",

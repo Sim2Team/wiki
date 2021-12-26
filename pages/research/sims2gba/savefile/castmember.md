@@ -3,11 +3,11 @@ layout: research
 researchcategory: Savefile
 structure: sims2gba
 title: Cast Member
-description: The Sims 2 Game Boy Advance | Cast Member Research
+description: The Sims 2 Game Boy Advance | Savefile Cast Member Research
 permalink: /research/sims2gba/savefile/castmember
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.0.**
 <hr>
 
 

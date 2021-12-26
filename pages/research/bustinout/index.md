@@ -1,9 +1,9 @@
 ---
 layout: research
-researchcategory: General
+researchcategory: Index
 structure: bustinout
-title: General Info
-description: General Info for The Sims Bustin' Out Game Boy Advance.
+title: Research Info
+description: Research Info for The Sims Bustin' Out Game Boy Advance.
 permalink: /research/bustinout
 ---
 

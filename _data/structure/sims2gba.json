@@ -1,13 +1,18 @@
 [
 	{
+		"title": "Research Info",
+		"type": "Index",
+		"url": "/research/sims2gba"
+	},
+	{
 		"title": "General Info",
 		"type": "General",
-		"url": "/research/sims2gba"
+		"url": "/research/sims2gba/general"
 	},
 	{
 		"title": "Item",
 		"type": "General",
-		"url": "/research/sims2gba/item"
+		"url": "/research/sims2gba/general/item"
 	},
 	{
 		"title": "Internal Info",

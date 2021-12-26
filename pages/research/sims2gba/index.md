@@ -1,9 +1,9 @@
 ---
 layout: research
-researchcategory: General
+researchcategory: Index
 structure: sims2gba
-title: General Info
-description: General Info for The Sims 2 Game Boy Advance.
+title: Research Info
+description: Research Info for The Sims 2 Game Boy Advance.
 permalink: /research/sims2gba
 ---
 
@@ -37,7 +37,7 @@ permalink: /research/sims2gba
 
 
 ## General
-**You can find general things related to the Internal, but also to the Savefile side on the General sidebar dropdown, such as the Item ID list.**
+**You can find things that may be related to the Savefile, but also the the Internal side on the <a href="{{ "/research/sims2gba/general" | absolute_url }}"> General</a> Section, such as the Item IDs.**
 <hr>
 
 

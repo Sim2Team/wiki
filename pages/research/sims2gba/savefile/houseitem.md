@@ -3,11 +3,11 @@ layout: research
 researchcategory: Savefile
 structure: sims2gba
 title: House Item
-description: The Sims 2 Game Boy Advance | House Item Research
+description: The Sims 2 Game Boy Advance | Savefile House Item Research
 permalink: /research/sims2gba/savefile/houseitem
 ---
 
-**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.**
+**Researched by [SuperSaiyajinStackZ](https://github.com/SuperSaiyajinStackZ), Version: 0.1.0.**
 <hr>
 
 
@@ -61,19 +61,19 @@ struct HouseItems {
 
 
 ## Item IDs
-For a list of all Item IDs, checkout the <a href="{{ "/research/sims2gba/item#id-list" | absolute_url }}">Item ID Section</a>.
+For a list of all Item IDs, checkout the <a href="{{ "/research/sims2gba/general/item#id-list" | absolute_url }}">Item ID Section</a>.
 <hr>
 
 
 ## Item Flags
-For a list of all Item flags, checkout the <a href="{{ "/research/sims2gba/item#item-flags" | absolute_url }}">Item Flags Section</a>.
+For a list of all Item flags, checkout the <a href="{{ "/research/sims2gba/general/item#item-flags" | absolute_url }}">Item Flags Section</a>.
 
 **NOTE, that this section is a TODO.**
 <hr>
 
 
 ## Item Use Count
-For a list of all Item Use Counts, checkout the <a href="{{ "/research/sims2gba/item#item-use-count" | absolute_url }}">Item Use Count Section</a>.
+For a list of all Item Use Counts, checkout the <a href="{{ "/research/sims2gba/general/item#item-use-count" | absolute_url }}">Item Use Count Section</a>.
 
 **NOTE, that this section is a TODO.**
 <hr>

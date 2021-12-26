@@ -1,9 +1,9 @@
 ---
 layout: research
-researchcategory: General
+researchcategory: Index
 structure: sims2nds
-title: General Info
-description: General Info for The Sims 2 Nintendo DS.
+title: Research Info
+description: Research Info for The Sims 2 Nintendo DS.
 permalink: /research/sims2nds
 ---
 

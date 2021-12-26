@@ -1,8 +1,18 @@
 [
 	{
+		"title": "Research Info",
+		"type": "Index",
+		"url": "/research/sims2nds"
+	},
+	{
 		"title": "General Info",
 		"type": "General",
-		"url": "/research/sims2nds"
+		"url": "/research/sims2nds/general"
+	},
+	{
+		"title": "Internal Info",
+		"type": "Internal",
+		"url": "/research/sims2nds/internal"
 	},
 	{
 		"title": "Save Info",

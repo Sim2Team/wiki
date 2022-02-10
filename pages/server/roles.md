@@ -31,15 +31,21 @@ We also have "Status" roles, so you can show what kind of player of these games 
 ### Sanity Level Roles
 We also have *new* roles for those that are being active on the Sim2Server.
 
-You can get some nice colored roles with the activity on the Server, those can be unlocked with Points. There are 5 Levels, while they require the following points:
+You can get some nice colored roles with the activity on the Server, those can be unlocked with Points. There are 5 basic Levels but also 6 Special levels. Those can be unlocked with the following amount of Points:
 
-| Level | Points  | Color                     |
-| ----- | ------- | ------------------------- |
-| 0     | 8       | Red                       |
-| 1     | 500     | Green                     |
-| 2     | 1000    | Yellow                    |
-| 3     | 2000    | Silver                    |
-| 4     | 4000    | Dark Orchid - Purple like |
+| Level    | Points  | Color     |
+| -------- | ------- | --------- |
+| Sanity-0 | 8       | `#B9010B` |
+| Sanity-1 | 500     | `#60BC7B` |
+| Sanity-2 | 1000    | `#B59C42` |
+| Sanity-3 | 2000    | `#A7A7D7` |
+| Sanity-4 | 4000    | `#A542A3` |
+| Zimmer   | 7000    | `#BAB748` |
+| Keeble   | 10000   | `#2A7B39` |
+| Dripple  | 50000   | `#5D8BB5` |
+| Burple   | 100000  | `#12CE61` |
+| Ava      | 500000  | `#3C1A77` |
+| Emperor  | 1000000 | `#000893` |
 
 For more join the Discord Server and read the pins in #bot-lounge.
 <hr>

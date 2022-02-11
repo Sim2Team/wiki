@@ -4,6 +4,10 @@
 		"title": "Sim2Server Index"
 	},
 	{
+		"url": "/server/levelsystem",
+		"title": "Sim2Server Level System"
+	},
+	{
 		"url": "/server/roles",
 		"title": "Sim2Server Roles"
 	},

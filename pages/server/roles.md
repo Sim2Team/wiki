@@ -7,6 +7,11 @@ description: More information about Sim2Server's roles.
 permalink: /server/roles
 ---
 
+## NOTE
+With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes.
+<hr>
+
+
 ### Investigating Roles
 These are the investigation / researching roles. The roles are not toggle-able and only given out to people that work actively or at least have experience in the category.
 

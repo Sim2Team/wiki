@@ -7,6 +7,11 @@ description: More information about Sim2Server's rules.
 permalink: /server/rules
 ---
 
+## NOTE
+With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes.
+<hr>
+
+
 1. Don't break discord's Terms of Service/Community Guidelines. (See here for the [Community Guidelines](https://discord.com/guidelines)).
 
 2. Don't talk or even discuss about piracy. That is a banned topic on this server.

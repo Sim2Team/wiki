@@ -7,6 +7,11 @@ description: Level System page of the Sim2Server section.
 permalink: /server/levelsystem
 ---
 
+## NOTE
+With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes.
+<hr>
+
+
 ### What is this?
 The Level System, also known as `ls` is a nice feature for active People.
 

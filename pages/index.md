@@ -7,4 +7,4 @@ permalink: /
 
 # Welcome to the Sim2Team Wiki!
 
-You can find Guides and Research by Sim2Team on this site. Use the navbar to access the Sections.
+You can find Guides, Research and Disassemblies / Decompilations by Sim2Team on this site. Use the navbar to access the Sections.

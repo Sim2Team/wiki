@@ -8,7 +8,7 @@ permalink: /server
 ---
 
 ## NOTE
-With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes. Join the [Universal-Server](https://universal-team.net/discord) instead and go to #stackverse and it's Sims related Threads if you are interested into research related things.
+With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes. Join the [Universal-Server](https://universal-team.net/discord) instead and go to #sim2team and it's Threads if you are interested into research related things.
 <hr>
 
 

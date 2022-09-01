@@ -4,8 +4,8 @@
 		"title": "Sim2Server Index"
 	},
 	{
-		"url": "/server/levelsystem",
-		"title": "Sim2Server Level System"
+		"url": "/server/channels",
+		"title": "Sim2Server Channels"
 	},
 	{
 		"url": "/server/roles",

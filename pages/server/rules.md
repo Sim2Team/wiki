@@ -7,21 +7,14 @@ description: More information about Sim2Server's rules.
 permalink: /server/rules
 ---
 
-## NOTE
-With the Movement to Universal-Server this is not a thing anymore, however it is kept for archival purposes.
-<hr>
+1. The common thing: Don't break Discord's Guidelines: https://discord.com/guidelines.
 
+2. Use the channels correctly. For general stuff, use #general, for shitposts, use #edge-of-town.
 
-1. Don't break discord's Terms of Service/Community Guidelines. (See here for the [Community Guidelines](https://discord.com/guidelines)).
+3. Treat other members with respect.
 
-2. Don't talk or even discuss about piracy. That is a banned topic on this server.
+4. Don't talk about piracy.
 
-3. Be patient and polite. This is a friendly place, we don't need drama here.
+5. Don't bring over NSFW content. NSFW content is forbidden.
 
-4. Try to stay on topic. That means -> try to use the proper channels.
-
-5. If you need to ask a question, directly ask the question and don't ask, if you can ask the question, because that only clutters the channels a lot more.
-    - Check out the channel description and pins, maybe your question got answered already.
-
-6. The rules can change at any moment, if necessary - so always keep a look at #entrance in case they change. This would of course be announced though in #bulletin-board.
-<hr>
+6. Use common sense.

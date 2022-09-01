@@ -21,7 +21,7 @@ permalink: /research/sims2gba
 | Game Code    | B46E                      |
 | Regions      | USA, Europe               |
 | Size         | 32 MB   (0x2000000)       |
-| Trimmed Size | 31.7 MB (0x1FC4AD5)       |
+| Trimmed Size | 31.7 MB (0x1FC5D40)       |
 
 <hr>
 

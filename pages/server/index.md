@@ -7,26 +7,38 @@ description: Index page of the Sim2Server section.
 permalink: /server
 ---
 
-## NOTE
-With [S2GBADecomp](https://github.com/tssoret/S2GBADecomp) starting to get a larger project likely soon:tm:, a *new* Discord Server is there and does combine [Sim2Team](https://github.com/Sim2Team) and [tssoret](https://github.com/tssoret) into one!
+### Note
+***Since Discord supported forum channels now on Discord, all of it moved back to Universal-Team's Discord Server under a Sims forum.***
 
-Join the [Discord Server](https://discord.gg/TR6BfHRqqj) if you want to be up-to-date with Sim2Team and tssoret projects.
-<hr>
+---
 
-
-### Welcome to the Sim2Server section of the wiki!
+## Welcome to the Sim2Server section of the wiki!
 **You like the games such as the ones listed on the [main page](https://sim2team.github.io)? Then the Sim2Server might be a good place for you.**
 
-*Of course you can also just chill on that server (though you'd likely have more fun there if you like one or more of the games). Maybe you also never heard of the games and want to try it out?*
+- You can create your own posts if you want to share specific knowledge, or send them in a proper already existing post.
+- You can learn more about the games if other people shared their knowledge already in a post.
+- You could also showcase your own Sims related ROM Hacks / Mods to the games in the `Showcases` post.
 
-- You can talk about the games, or also learn more about it or share your knowledge.
+***Check out the forum section if you want to see a few existing ones.***
 
-- You could also share your own created ROM Hacks for those games, or just talk about reverse engineering / save data stuff.
+[Use this Invite to join the Universal-Server](https://universal-team.net/discord).
 
-It doesn't matter how well you're experienced with the games, you can even be a newcomer to the games, or a master that can help out by questions or just be someone, that enjoys playing the games.
+---
 
+## Projects
+*Sim2Team and tssoret already have a few projects about the games, here to list a few by each organization:*
 
-There are also some projects related about the games, such as [Sim2Editor](https://sim2team.github.io/sim2editor/), which is a web browser save editor for Currently: The Sims 2 (Game Boy Advance & Nintendo DS), or also straight researches about the Savefiles on [Sim2Wiki](https://sim2team.github.io/wiki/research). There is also [Optimum Alfred](https://github.com/Sim2Team/Optimum-Alfred-Bot), a discord bot for tssoret, which is still kinda a work in progress that should make the stay on that server more nicely or [S2GBADecomp](https://github.com/tssoret/S2GBADecomp), which is a work in progress disassembly and decompilation of The Sims 2 Game Boy Advance by tssoret.
+### Sim2Team
+- [Sim2Editor](https://sim2team.github.io/sim2editor/): A web browser save editor for currently The Sims 2 Game Boy Advance and Nintendo DS.
+- [Sim2Wiki](https://sim2team.github.io/wiki/): The site you are currently on, containing some research, guides etcetera related to Sims stuff.
+- [Optimum Alfred Bot](https://github.com/Sim2Team/Optimum-Alfred-Bot): A Discord Bot for Sims stuff (Currently inactive).
 
-**You can find more information about the Server on the card on the sidebar.**
-<hr>
+---
+
+### tssoret
+- [S2GBADecomp](https://github.com/tssoret/S2GBADecomp): A work in progress disassembly and decompilation of The Sims 2 Game Boy Advance.
+- [Tssoret-Tools](https://github.com/tssoret/Tssoret-Tools): Some tools related to disassembly / decompilation stuff.
+
+---
+
+***In other words: tssoret's organization is for Disassembly / Decompilation related things, while Sim2Team is for everything else.***

@@ -4,15 +4,7 @@
 		"title": "Sim2Server Index"
 	},
 	{
-		"url": "/server/channels",
-		"title": "Sim2Server Channels"
-	},
-	{
-		"url": "/server/roles",
-		"title": "Sim2Server Roles"
-	},
-	{
-		"url": "/server/rules",
-		"title": "Sim2Server Rules"
+		"url": "/server/forum",
+		"title": "Sim2Server Forum Posts"
 	}
 ]
